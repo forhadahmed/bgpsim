@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 858 710" width="858" height="710" role="img" aria-labelledby="title" font-family='-apple-system, "Segoe UI", Helvetica, Arial, sans-serif'>
+  <title id="title">One bgpsim process hosting two router bgp instances that peer with devices under test and send each neighbor the UPDATE snapshot of the ribout it advertises; a CLI or Python client drives the process over its control socket</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #e6edf3 }
+      .m { fill: #9198a1 }
+      .code { fill: #161b22; stroke: #3d444d }
+      .sim { fill: #0c2a4d; stroke: #58a6ff }
+      .acc-s { stroke: #58a6ff }
+      .acc-f { fill: #58a6ff }
+      .peer { fill: #132a1e; stroke: #3fb950 }
+    }
+  </style>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path class="acc-f" fill="#0969da" d="M0 0 L10 5 L0 10 Z"/></marker></defs>
+  <polygon class="acc-f" fill="#0969da" fill-opacity="0.07" points="328,67 404,60 404,204 328,197"/>
+  <line class="acc-s" stroke="#0969da" x1="328" y1="67" x2="404" y2="60" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+  <line class="acc-s" stroke="#0969da" x1="328" y1="197" x2="404" y2="204" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+  <polygon class="acc-f" fill="#0969da" fill-opacity="0.07" points="328,211 404,204 404,348 328,341"/>
+  <line class="acc-s" stroke="#0969da" x1="328" y1="211" x2="404" y2="204" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+  <line class="acc-s" stroke="#0969da" x1="328" y1="341" x2="404" y2="348" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+  <polygon class="acc-f" fill="#0969da" fill-opacity="0.07" points="328,355 404,348 404,456 328,449"/>
+  <line class="acc-s" stroke="#0969da" x1="328" y1="355" x2="404" y2="348" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+  <line class="acc-s" stroke="#0969da" x1="328" y1="449" x2="404" y2="456" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+  <polygon class="acc-f" fill="#0969da" fill-opacity="0.07" points="328,463 404,456 404,564 328,557"/>
+  <line class="acc-s" stroke="#0969da" x1="328" y1="463" x2="404" y2="456" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+  <line class="acc-s" stroke="#0969da" x1="328" y1="557" x2="404" y2="564" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+  <rect class="sim" fill="#ddf4ff" stroke="#0969da" x="404" y="20" width="160" height="572" rx="8" stroke-width="1.5"/>
+  <text class="t" fill="#1f2328" x="484" y="46" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2">BGPSIM</text>
+  <text class="m" fill="#59636e" x="629" y="88" text-anchor="middle" font-size="12" font-style="italic">Route Injection</text>
+  <line class="acc-s" stroke="#0969da" x1="404" y1="60" x2="564" y2="60" stroke-opacity="0.5"/>
+  <text class="t" fill="#1f2328" x="484" y="129" text-anchor="middle" font-size="15" font-weight="600">AS 10</text>
+  <text class="m" fill="#59636e" x="484" y="149" text-anchor="middle" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">router bgp 10</text>
+  <line class="acc-s" stroke="#0969da" x1="404" y1="204" x2="564" y2="204" stroke-opacity="0.5"/>
+  <text class="t" fill="#1f2328" x="484" y="273" text-anchor="middle" font-size="15" font-weight="600">AS 20</text>
+  <text class="m" fill="#59636e" x="484" y="293" text-anchor="middle" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">router bgp 20</text>
+  <line class="acc-s" stroke="#0969da" x1="404" y1="348" x2="564" y2="348" stroke-opacity="0.5" stroke-dasharray="4 3"/>
+  <text class="t" fill="#1f2328" x="484" y="399" text-anchor="middle" font-size="14" font-weight="600">UPDATE snapshot</text>
+  <text class="m" fill="#59636e" x="484" y="419" text-anchor="middle" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ribout demo-v4</text>
+  <line class="acc-s" stroke="#0969da" x1="404" y1="456" x2="564" y2="456" stroke-opacity="0.5"/>
+  <text class="t" fill="#1f2328" x="484" y="507" text-anchor="middle" font-size="14" font-weight="600">UPDATE snapshot</text>
+  <text class="m" fill="#59636e" x="484" y="527" text-anchor="middle" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ribout demo-v6</text>
+  <line class="acc-s" stroke="#0969da" x1="404" y1="564" x2="564" y2="564" stroke-opacity="0.5"/>
+  <circle class="m" fill="#59636e" cx="484" cy="572" r="1.5"/>
+  <circle class="m" fill="#59636e" cx="484" cy="578" r="1.5"/>
+  <circle class="m" fill="#59636e" cx="484" cy="584" r="1.5"/>
+  <rect class="code" fill="#f6f8fa" stroke="#d1d9e0" x="24" y="67" width="304" height="130" rx="6" stroke-width="1.5"/>
+  <text class="t" fill="#1f2328" x="38" y="91" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">router bgp 10</text>
+  <text class="t" fill="#1f2328" x="38" y="109" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  neighbor 10.0.0.1 remote-as 100</text>
+  <text class="t" fill="#1f2328" x="38" y="127" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">    advertise demo-v4</text>
+  <text class="t" fill="#1f2328" x="38" y="145" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  neighbor 10.0.0.2 remote-as 100</text>
+  <text class="t" fill="#1f2328" x="38" y="163" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">    advertise demo-v6</text>
+  <text class="m" fill="#59636e" x="38" y="181" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  ...</text>
+  <rect class="code" fill="#f6f8fa" stroke="#d1d9e0" x="24" y="211" width="304" height="130" rx="6" stroke-width="1.5"/>
+  <text class="t" fill="#1f2328" x="38" y="235" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">router bgp 20</text>
+  <text class="t" fill="#1f2328" x="38" y="253" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  neighbor 20.0.0.1 remote-as 200</text>
+  <text class="t" fill="#1f2328" x="38" y="271" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">    advertise demo-v6</text>
+  <text class="t" fill="#1f2328" x="38" y="289" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  neighbor 20.0.0.2 remote-as 200</text>
+  <text class="t" fill="#1f2328" x="38" y="307" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">    advertise demo-v4</text>
+  <text class="m" fill="#59636e" x="38" y="325" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  ...</text>
+  <rect class="code" fill="#f6f8fa" stroke="#d1d9e0" x="24" y="355" width="304" height="94" rx="6" stroke-width="1.5"/>
+  <text class="t" fill="#1f2328" x="38" y="379" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ribout demo-v4</text>
+  <text class="t" fill="#1f2328" x="38" y="397" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  prefix 172.16.0.0/24 x 1000</text>
+  <text class="t" fill="#1f2328" x="38" y="415" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  next-hop 192.0.2.1 x 2</text>
+  <text class="m" fill="#59636e" x="38" y="433" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  ...</text>
+  <rect class="code" fill="#f6f8fa" stroke="#d1d9e0" x="24" y="463" width="304" height="94" rx="6" stroke-width="1.5"/>
+  <text class="t" fill="#1f2328" x="38" y="487" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ribout demo-v6</text>
+  <text class="t" fill="#1f2328" x="38" y="505" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  prefix 2001:db8::/48 x 1000</text>
+  <text class="t" fill="#1f2328" x="38" y="523" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  next-hop 2001:db8::1 x 2</text>
+  <text class="m" fill="#59636e" x="38" y="541" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  ...</text>
+  <circle class="m" fill="#59636e" cx="176" cy="572" r="1.5"/>
+  <circle class="m" fill="#59636e" cx="176" cy="578" r="1.5"/>
+  <circle class="m" fill="#59636e" cx="176" cy="584" r="1.5"/>
+  <path class="acc-s" stroke="#0969da" fill="none" stroke-width="1" marker-mid="url(#arrow)" d="M564 108 L629 108 L694 108"/>
+  <text class="m" fill="#59636e" x="570" y="104" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">demo-v4</text>
+  <path class="acc-s" stroke="#0969da" fill="none" stroke-width="1" marker-mid="url(#arrow)" d="M564 130 L629 130 L694 130"/>
+  <text class="m" fill="#59636e" x="570" y="126" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">demo-v6</text>
+  <circle class="m" fill="#59636e" cx="629" cy="144" r="1.5"/>
+  <circle class="m" fill="#59636e" cx="629" cy="150" r="1.5"/>
+  <circle class="m" fill="#59636e" cx="629" cy="156" r="1.5"/>
+  <path class="acc-s" stroke="#0969da" fill="none" stroke-width="1" marker-mid="url(#arrow)" d="M564 252 L629 252 L694 252"/>
+  <text class="m" fill="#59636e" x="570" y="248" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">demo-v6</text>
+  <path class="acc-s" stroke="#0969da" fill="none" stroke-width="1" marker-mid="url(#arrow)" d="M564 274 L629 274 L694 274"/>
+  <text class="m" fill="#59636e" x="570" y="270" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">demo-v4</text>
+  <circle class="m" fill="#59636e" cx="629" cy="288" r="1.5"/>
+  <circle class="m" fill="#59636e" cx="629" cy="294" r="1.5"/>
+  <circle class="m" fill="#59636e" cx="629" cy="300" r="1.5"/>
+  <rect class="peer" fill="#dafbe1" stroke="#1a7f37" x="694" y="102" width="140" height="60" rx="6" stroke-width="1.5"/>
+  <text class="t" fill="#1f2328" x="764" y="130" text-anchor="middle" font-size="15" font-weight="600">AS 100</text>
+  <text class="m" fill="#59636e" x="764" y="148" text-anchor="middle" font-size="11">BGP DUT</text>
+  <rect class="peer" fill="#dafbe1" stroke="#1a7f37" x="694" y="246" width="140" height="60" rx="6" stroke-width="1.5"/>
+  <text class="t" fill="#1f2328" x="764" y="274" text-anchor="middle" font-size="15" font-weight="600">AS 200</text>
+  <text class="m" fill="#59636e" x="764" y="292" text-anchor="middle" font-size="11">BGP DUT</text>
+  <rect class="code" fill="#f6f8fa" stroke="#d1d9e0" x="379" y="636" width="210" height="54" rx="6" stroke-width="1.5"/>
+  <text class="t" fill="#1f2328" x="484" y="659" text-anchor="middle" font-size="14" font-weight="600">CLI / Python client</text>
+  <text class="m" fill="#59636e" x="484" y="677" text-anchor="middle" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">advertise, withdraw, scripts</text>
+  <path class="acc-s" stroke="#0969da" fill="none" stroke-width="1" marker-mid="url(#arrow)" d="M484 636 L484 614 L484 592"/>
+  <text class="m" fill="#59636e" x="494" y="618" font-size="11" font-style="italic">control socket</text>
+</svg>
