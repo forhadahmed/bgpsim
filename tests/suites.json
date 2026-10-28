@@ -1,0 +1,606 @@
+{
+  "profile_budgets_ms": {
+    "all": 41500
+  },
+  "suites": [
+    {
+      "name": "test_bgp_update",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_update_vpn",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update_vpn"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_update_evpn",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update_evpn"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_update_ls",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update_ls"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_update_sr",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update_sr"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_update_flowspec",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update_flowspec"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_update_rtc",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update_rtc"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_update_vpls",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update_vpls"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_update_mvpn",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_update_mvpn"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_open",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_bgp_open",
+        "--unit"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_tx_policy",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_tx_policy"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_control_protocol",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_control_protocol"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_cli_commands",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_cli_commands",
+        "--unit"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_cli_config",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_cli_config"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_cli_pty",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_cli_pty"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_cli_ribout",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_cli_ribout"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_control_edge_cases",
+      "group": "network-tests",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{build}/test_control_edge_cases"
+      ],
+      "budget_ms": 4500
+    },
+    {
+      "name": "test_script_cli",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_script_cli"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_parser",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_parser"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_ribout_generator",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_generator"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_ribout_constraints",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_constraints"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_ribout_map",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_map"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_ribout_update_generation",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_update_generation"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_ribout_stress",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_stress"
+      ],
+      "budget_ms": 2000
+    },
+    {
+      "name": "test_ribout_snapshot",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_snapshot"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_ribout_withdrawal",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_withdrawal"
+      ],
+      "budget_ms": 2000
+    },
+    {
+      "name": "test_ribout_keyspace",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_keyspace"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_ribout_churn",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_ribout_churn"
+      ],
+      "budget_ms": 3000
+    },
+    {
+      "name": "test_peer_tx",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_peer_tx"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_neighbor_state",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_neighbor_state"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_network_errors",
+      "group": "network-tests",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{build}/test_network_errors"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_unique_router_id",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_unique_router_id"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_runtime_lifecycle",
+      "group": "network-tests",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{build}/test_runtime_lifecycle"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_runtime_edge_cases",
+      "group": "network-tests",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{build}/test_runtime_edge_cases"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_runtime_tx",
+      "group": "network-tests",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{build}/test_runtime_tx"
+      ],
+      "budget_ms": 6500
+    },
+    {
+      "name": "test_output_buffers",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_output_buffers"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_script_model",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_script_model"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_wire_reader",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_wire_reader"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_allocation_failures",
+      "group": "unit-tests",
+      "profiles": [
+        "unit",
+        "all"
+      ],
+      "command": [
+        "{build}/test_allocation_failures"
+      ],
+      "budget_ms": 1500,
+      "platform": "Linux"
+    },
+    {
+      "name": "test_result_protocol",
+      "group": "unit-tests",
+      "profiles": ["unit", "all"],
+      "command": ["{build}/test_result_protocol"],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_bgp_open_sessions",
+      "group": "network-tests",
+      "profiles": ["all"],
+      "command": ["{build}/test_bgp_open", "--sessions"],
+      "budget_ms": 3000
+    },
+    {
+      "name": "test_cli_commands_sessions",
+      "group": "network-tests",
+      "profiles": ["all"],
+      "command": ["{build}/test_cli_commands", "--sessions"],
+      "budget_ms": 1000
+    },
+    {
+      "name": "test_packaging",
+      "group": "tooling",
+      "profiles": ["all"],
+      "command": ["{python}", "-u", "test_packaging.py"],
+      "budget_ms": 15000
+    },
+    {
+      "name": "test_harness",
+      "group": "control-and-api",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{python}",
+        "-u",
+        "test_harness.py"
+      ],
+      "budget_ms": 4000
+    },
+    {
+      "name": "test_test_infra",
+      "group": "control-and-api",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{python}",
+        "-u",
+        "test_test_infra.py"
+      ],
+      "budget_ms": 3500
+    },
+    {
+      "name": "test_shell_smoke",
+      "group": "control-and-api",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{python}",
+        "-u",
+        "test_shell_smoke.py"
+      ],
+      "budget_ms": 8000
+    },
+    {
+      "name": "test_python_api",
+      "group": "control-and-api",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{python}",
+        "-u",
+        "test_python_api.py"
+      ],
+      "budget_ms": 2000
+    },
+    {
+      "name": "test_multi_session",
+      "group": "control-and-api",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{python}",
+        "-u",
+        "test_multi_session.py"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "test_neighbor_management",
+      "group": "control-and-api",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{python}",
+        "-u",
+        "test_neighbor_management.py"
+      ],
+      "budget_ms": 1500
+    },
+    {
+      "name": "ribout_performance",
+      "group": "ribout-suites",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{python}",
+        "-u",
+        "ribout_performance.py"
+      ],
+      "budget_ms": 2500
+    },
+    {
+      "name": "test_peer_stress",
+      "group": "peer-stress",
+      "profiles": [
+        "all"
+      ],
+      "command": [
+        "{python}",
+        "-u",
+        "test_peer_stress.py"
+      ],
+      "budget_ms": 42000,
+      "background": true
+    }
+  ]
+}
