@@ -1,0 +1,44 @@
+# Build directory
+.claude/
+.codex
+.gitlab-token
+build/
+bld/
+
+# Test artifacts
+tests/*.log
+tests/test_*.conf
+tests/client*.log
+tests/bgp_test_client_keepalive.c
+tests/bgp_test_client_keepalive
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Log files
+bgpsim.log
+*.log
+
+# RFCs (local reference only)
+docs/rfcs/
+
+# Test config files in root
+/test_*.conf
+/test_*.sh
+
+*.zip
+
+# Local source formatter and its tests: not part of the repository
+src/format
+tests/test_format.py
